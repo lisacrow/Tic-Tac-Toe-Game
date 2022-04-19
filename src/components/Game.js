@@ -20,7 +20,7 @@ const Game = () => {
         const squares = [...current];
         //if user clicks an occupied square or if the game is won
         if (winner || squares[i]) return;
-        // Put X or an O in the clicked square
+        // Put X or O in the clicked square
         squares[i] = xIsNext ? 'X' : 'O';
         setHistory([...timeInHistory, squares]);
         setStepNumber(timeInHistory.length);

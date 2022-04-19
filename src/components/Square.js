@@ -10,9 +10,11 @@ const style = {
 };
 
 const Square = ({value, onClick}) => (
-    <button style={style} onClick={onClick}>
-        {value}
-    </button>
+        <button style={style} onClick={onClick}>
+            {value}
+        </button>
+    
 );
+
 
 export default Square;
