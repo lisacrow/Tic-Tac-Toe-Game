@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "tic-tac-toe-12b22",
     "public": "build",
     "ignore": [
       "firebase.json",
